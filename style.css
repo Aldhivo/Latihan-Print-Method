@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container header{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.container .isi{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .p{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 900px;
+}
+
+.container .p p{
+    margin: 20px;
+}
+
+.container .print{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.container .print button{
+    font-size: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.container .print button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container .print button i{
+    text-align: center;
+    margin: 2px;
+}
